@@ -1,9 +1,32 @@
-table {
-    width: 100%;
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    height: 100vh;
 }
 
-td {
+table {
+    border-collapse: collapse;
+}
+
+th, td {
     border: 1px solid #000;
-    padding: 8px;
-    text-align: left;
+}
+
+.borderless {
+    width: 1em;
+    border: 0px;
+}
+
+.button {
+    color: white;
+    background-color: #000000;
+}
+
+.button:hover {
+    color: yellow;
+}
+
+img:hover{
+    cursor: pointer;
 }

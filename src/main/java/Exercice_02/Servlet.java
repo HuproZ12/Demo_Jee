@@ -27,6 +27,6 @@ public class Servlet extends HttpServlet {
         Chat chat = new Chat(nom, race, repasFavoris, naissance);
         chats.add(chat);
 
-        resp.sendRedirect(req.getServletContext().getContextPath() + "/servlet");
+        resp.sendRedirect(req.getServletContext().getContextPath() + "/servlet"); // doGet(req, resp);
     }
 }

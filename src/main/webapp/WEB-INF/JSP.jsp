@@ -29,7 +29,6 @@
         <ul>
             <li><label for="nom">Nom</label><input type="text" id="nom" name="nom"></li>
             <li><label for="race">Race</label><input type="text" id="race" name="race"></li>
-            <li><label for="repasFavoris">Repas favoris</label><input type="text" id="repasFavoris" name="repasFavoris"></li>
             <li><label for="naissance">Date de naissance</label><input type="date" id="naissance" name="naissance"></li>
             <li><button type="submit">Ajouter</button></li>
         </ul>
